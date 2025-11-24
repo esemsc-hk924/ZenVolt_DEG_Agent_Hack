@@ -1,0 +1,30 @@
+[
+    {
+      "id": "govuk_secr_guide_v1_p12",
+      "jurisdiction": "UK",
+      "topic": "SECR",
+      "effective_date": "2019-04-01",
+      "source_url": "https://www.gov.uk/guidance/streamlined-energy-and-carbon-reporting",
+      "text": "SECR requires quoted companies and large unquoted/Ltd LLPs to disclose annual energy use, GHG emissions, intensity metrics, and methodologies in the Directors’ Report.",
+      "version": "v1"
+    },
+    {
+      "id": "eu_csrd_overview_v1_p3",
+      "jurisdiction": "EU",
+      "topic": "CSRD",
+      "effective_date": "2024-01-01",
+      "source_url": "https://efrag.org/",
+      "text": "CSRD introduces phased sustainability reporting with digital tagging and limited assurance, aligned with ESRS; phased applicability by company size/listing.",
+      "version": "v1"
+    },
+    {
+      "id": "eu_cbam_transitional_v1_p5",
+      "jurisdiction": "EU",
+      "topic": "CBAM",
+      "effective_date": "2023-10-01",
+      "source_url": "https://taxation-customs.ec.europa.eu/",
+      "text": "CBAM transitional phase requires quarterly reporting of embedded emissions; purchase of CBAM certificates begins after transitional phase.",
+      "version": "v1"
+    }
+  ]
+  

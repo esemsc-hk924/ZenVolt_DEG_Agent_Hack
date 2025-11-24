@@ -1,0 +1,531 @@
+{
+    "driverId": "DRV-001",
+    "driver_name": "Alex Driver",
+    "orgId": "ACME-Fleet-01",
+    "period": "2025-09",
+    "vehicle": {
+      "vehicleId": "EV-100",
+      "make": "Toyota",
+      "model": "Corolla 1.8",
+      "year": 2022,
+      "class": "Compact",
+      "fuel_type": "Petrol",
+      "engine_cc": 1798,
+      "curb_weight_kg": 1275,
+      "baseline_l_per_100km": 7.2,
+      "co2_factor_kg_per_l": 2.31
+    },
+    "aggregates": {
+      "total_distance_km": 276.3,
+      "total_fuel_liters": 18.46,
+      "avg_l_per_100km": 6.68,
+      "idle_total_seconds": 4190,
+      "events_total": {
+        "overspeed": 22,
+        "harsh_accel": 18,
+        "harsh_brake": 20,
+        "cornering": 9,
+        "phone_use": 6
+      },
+      "eco_score_overall": 78,
+      "predicted_baseline_fuel_liters": 19.89,
+      "saved_fuel_liters_vs_baseline": 1.43,
+      "saved_co2_kg_vs_baseline": 3.30
+    },
+    "trips": [
+      {
+        "tripId": "T-2001",
+        "start_time": "2025-09-01T08:14:10Z",
+        "end_time": "2025-09-01T08:52:40Z",
+        "odometer_start_km": 12034.2,
+        "odometer_end_km": 12058.8,
+        "distance_km": 24.6,
+        "fuel_liters": 2.10,
+        "idle_seconds": 260,
+        "avg_speed_kmh": 43,
+        "max_speed_kmh": 91,
+        "route_type": "Urban",
+        "weather": "Clear",
+        "ambient_temp_c": 17,
+        "ac_on_ratio": 0.35,
+        "payload_kg": 40,
+        "elevation_gain_m": 46,
+        "eco_mode_ratio": 0.40,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 3, "harsh_accel": 2, "harsh_brake": 3, "cornering": 1, "phone_use": 1 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 93 },
+        "fuel_calc": {
+          "actual_l_per_100km": 8.54,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.77,
+          "saved_fuel_liters_vs_baseline": -0.33,
+          "co2_kg": 4.85,
+          "saved_co2_kg_vs_baseline": -0.76
+        },
+        "geo": {
+          "start": { "lat": 51.5076, "lon": -0.1277, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5224, "lon": -0.1026, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 18, "brake": 1, "elev_m": 22 },
+          { "t": 60,  "speed_kmh": 38, "rpm": 1800, "throttle": 18, "gear": 3, "engine_load_pct": 41, "brake": 0, "elev_m": 25 },
+          { "t": 120, "speed_kmh": 52, "rpm": 2100, "throttle": 24, "gear": 4, "engine_load_pct": 48, "brake": 0, "elev_m": 31 },
+          { "t": 180, "speed_kmh": 75, "rpm": 2500, "throttle": 45, "gear": 5, "engine_load_pct": 62, "brake": 0, "elev_m": 48 },
+          { "t": 240, "speed_kmh": 82, "rpm": 2700, "throttle": 51, "gear": 6, "engine_load_pct": 68, "brake": 0, "elev_m": 56 },
+          { "t": 300, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 24 }
+        ]
+      },
+      {
+        "tripId": "T-2002",
+        "start_time": "2025-09-02T07:10:05Z",
+        "end_time": "2025-09-02T07:40:55Z",
+        "odometer_start_km": 12058.8,
+        "odometer_end_km": 12077.0,
+        "distance_km": 18.2,
+        "fuel_liters": 1.20,
+        "idle_seconds": 180,
+        "avg_speed_kmh": 39,
+        "max_speed_kmh": 78,
+        "route_type": "Urban",
+        "weather": "Light Rain",
+        "ambient_temp_c": 14,
+        "ac_on_ratio": 0.20,
+        "payload_kg": 0,
+        "elevation_gain_m": 18,
+        "eco_mode_ratio": 0.52,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 1, "harsh_accel": 1, "harsh_brake": 2, "cornering": 0, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 96 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.59,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.31,
+          "saved_fuel_liters_vs_baseline": 0.11,
+          "co2_kg": 2.77,
+          "saved_co2_kg_vs_baseline": 0.26
+        },
+        "geo": {
+          "start": { "lat": 51.5224, "lon": -0.1026, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5121, "lon": -0.0918, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 15, "brake": 1, "elev_m": 20 },
+          { "t": 45,  "speed_kmh": 35, "rpm": 1700, "throttle": 16, "gear": 3, "engine_load_pct": 38, "brake": 0, "elev_m": 23 },
+          { "t": 120, "speed_kmh": 58, "rpm": 2200, "throttle": 26, "gear": 5, "engine_load_pct": 49, "brake": 0, "elev_m": 29 },
+          { "t": 180, "speed_kmh": 65, "rpm": 2400, "throttle": 33, "gear": 5, "engine_load_pct": 53, "brake": 0, "elev_m": 32 },
+          { "t": 240, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 15, "brake": 1, "elev_m": 21 }
+        ]
+      },
+      {
+        "tripId": "T-2003",
+        "start_time": "2025-09-03T16:20:10Z",
+        "end_time": "2025-09-03T17:03:15Z",
+        "odometer_start_km": 12077.0,
+        "odometer_end_km": 12108.5,
+        "distance_km": 31.5,
+        "fuel_liters": 1.95,
+        "idle_seconds": 340,
+        "avg_speed_kmh": 49,
+        "max_speed_kmh": 104,
+        "route_type": "Mixed",
+        "weather": "Windy",
+        "ambient_temp_c": 16,
+        "ac_on_ratio": 0.28,
+        "payload_kg": 20,
+        "elevation_gain_m": 32,
+        "eco_mode_ratio": 0.58,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 2, "harsh_accel": 1, "harsh_brake": 1, "cornering": 1, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 95 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.19,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 2.27,
+          "saved_fuel_liters_vs_baseline": 0.32,
+          "co2_kg": 4.51,
+          "saved_co2_kg_vs_baseline": 0.74
+        },
+        "geo": {
+          "start": { "lat": 51.5121, "lon": -0.0918, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5450, "lon": -0.1023, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 19 },
+          { "t": 120, "speed_kmh": 62, "rpm": 2300, "throttle": 28, "gear": 5, "engine_load_pct": 52, "brake": 0, "elev_m": 28 },
+          { "t": 240, "speed_kmh": 88, "rpm": 2600, "throttle": 40, "gear": 6, "engine_load_pct": 60, "brake": 0, "elev_m": 35 },
+          { "t": 360, "speed_kmh": 70, "rpm": 2400, "throttle": 22, "gear": 6, "engine_load_pct": 44, "brake": 0, "elev_m": 33 },
+          { "t": 480, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 14, "brake": 1, "elev_m": 21 }
+        ]
+      },
+      {
+        "tripId": "T-2004",
+        "start_time": "2025-09-04T09:05:05Z",
+        "end_time": "2025-09-04T09:39:20Z",
+        "odometer_start_km": 12108.5,
+        "odometer_end_km": 12133.1,
+        "distance_km": 24.6,
+        "fuel_liters": 1.60,
+        "idle_seconds": 220,
+        "avg_speed_kmh": 45,
+        "max_speed_kmh": 86,
+        "route_type": "Urban",
+        "weather": "Cloudy",
+        "ambient_temp_c": 15,
+        "ac_on_ratio": 0.22,
+        "payload_kg": 0,
+        "elevation_gain_m": 20,
+        "eco_mode_ratio": 0.62,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 1, "harsh_accel": 1, "harsh_brake": 1, "cornering": 0, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 98 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.50,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.77,
+          "saved_fuel_liters_vs_baseline": 0.17,
+          "co2_kg": 3.70,
+          "saved_co2_kg_vs_baseline": 0.39
+        },
+        "geo": {
+          "start": { "lat": 51.5450, "lon": -0.1023, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5361, "lon": -0.1259, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 17, "brake": 1, "elev_m": 22 },
+          { "t": 60,  "speed_kmh": 42, "rpm": 1850, "throttle": 20, "gear": 3, "engine_load_pct": 40, "brake": 0, "elev_m": 24 },
+          { "t": 120, "speed_kmh": 58, "rpm": 2200, "throttle": 24, "gear": 5, "engine_load_pct": 48, "brake": 0, "elev_m": 27 },
+          { "t": 180, "speed_kmh": 64, "rpm": 2300, "throttle": 22, "gear": 5, "engine_load_pct": 45, "brake": 0, "elev_m": 29 },
+          { "t": 240, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 21 }
+        ]
+      },
+      {
+        "tripId": "T-2005",
+        "start_time": "2025-09-05T18:25:50Z",
+        "end_time": "2025-09-05T19:10:30Z",
+        "odometer_start_km": 12133.1,
+        "odometer_end_km": 12166.9,
+        "distance_km": 33.8,
+        "fuel_liters": 2.35,
+        "idle_seconds": 420,
+        "avg_speed_kmh": 47,
+        "max_speed_kmh": 112,
+        "route_type": "Mixed",
+        "weather": "Showers",
+        "ambient_temp_c": 12,
+        "ac_on_ratio": 0.18,
+        "payload_kg": 30,
+        "elevation_gain_m": 55,
+        "eco_mode_ratio": 0.40,
+        "tire_pressure_bar": { "front_left": 2.2, "front_right": 2.2, "rear_left": 2.1, "rear_right": 2.1 },
+        "events": { "overspeed": 4, "harsh_accel": 3, "harsh_brake": 3, "cornering": 2, "phone_use": 1 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 89 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.95,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 2.43,
+          "saved_fuel_liters_vs_baseline": 0.08,
+          "co2_kg": 5.43,
+          "saved_co2_kg_vs_baseline": 0.18
+        },
+        "geo": {
+          "start": { "lat": 51.5361, "lon": -0.1259, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5710, "lon": -0.1405, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,   "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 17, "brake": 1, "elev_m": 18 },
+          { "t": 120, "speed_kmh": 76,  "rpm": 2500, "throttle": 36, "gear": 5, "engine_load_pct": 58, "brake": 0, "elev_m": 38 },
+          { "t": 240, "speed_kmh": 104, "rpm": 2800, "throttle": 44, "gear": 6, "engine_load_pct": 64, "brake": 0, "elev_m": 57 },
+          { "t": 360, "speed_kmh": 88,  "rpm": 2600, "throttle": 30, "gear": 6, "engine_load_pct": 51, "brake": 0, "elev_m": 54 },
+          { "t": 480, "speed_kmh": 0,   "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 20 }
+        ]
+      },
+      {
+        "tripId": "T-2006",
+        "start_time": "2025-09-07T10:12:30Z",
+        "end_time": "2025-09-07T10:50:32Z",
+        "odometer_start_km": 12166.9,
+        "odometer_end_km": 12192.0,
+        "distance_km": 25.1,
+        "fuel_liters": 1.55,
+        "idle_seconds": 150,
+        "avg_speed_kmh": 42,
+        "max_speed_kmh": 84,
+        "route_type": "Urban",
+        "weather": "Clear",
+        "ambient_temp_c": 18,
+        "ac_on_ratio": 0.30,
+        "payload_kg": 10,
+        "elevation_gain_m": 21,
+        "eco_mode_ratio": 0.66,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 1, "harsh_accel": 1, "harsh_brake": 1, "cornering": 0, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 97 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.18,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.81,
+          "saved_fuel_liters_vs_baseline": 0.26,
+          "co2_kg": 3.58,
+          "saved_co2_kg_vs_baseline": 0.60
+        },
+        "geo": {
+          "start": { "lat": 51.5710, "lon": -0.1405, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5934, "lon": -0.1231, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 17, "brake": 1, "elev_m": 16 },
+          { "t": 60,  "speed_kmh": 44, "rpm": 1900, "throttle": 18, "gear": 3, "engine_load_pct": 40, "brake": 0, "elev_m": 19 },
+          { "t": 120, "speed_kmh": 57, "rpm": 2150, "throttle": 22, "gear": 4, "engine_load_pct": 45, "brake": 0, "elev_m": 24 },
+          { "t": 180, "speed_kmh": 69, "rpm": 2350, "throttle": 26, "gear": 5, "engine_load_pct": 48, "brake": 0, "elev_m": 28 },
+          { "t": 240, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 17 }
+        ]
+      },
+      {
+        "tripId": "T-2007",
+        "start_time": "2025-09-10T06:58:02Z",
+        "end_time": "2025-09-10T07:40:15Z",
+        "odometer_start_km": 12192.0,
+        "odometer_end_km": 12222.8,
+        "distance_km": 30.8,
+        "fuel_liters": 2.02,
+        "idle_seconds": 310,
+        "avg_speed_kmh": 49,
+        "max_speed_kmh": 108,
+        "route_type": "Mixed",
+        "weather": "Clear",
+        "ambient_temp_c": 13,
+        "ac_on_ratio": 0.12,
+        "payload_kg": 0,
+        "elevation_gain_m": 44,
+        "eco_mode_ratio": 0.54,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 2, "harsh_accel": 2, "harsh_brake": 2, "cornering": 1, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 94 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.56,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 2.22,
+          "saved_fuel_liters_vs_baseline": 0.20,
+          "co2_kg": 4.67,
+          "saved_co2_kg_vs_baseline": 0.46
+        },
+        "geo": {
+          "start": { "lat": 51.5934, "lon": -0.1231, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.6122, "lon": -0.0988, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,   "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 14 },
+          { "t": 120, "speed_kmh": 72,  "rpm": 2450, "throttle": 30, "gear": 5, "engine_load_pct": 54, "brake": 0, "elev_m": 29 },
+          { "t": 240, "speed_kmh": 95,  "rpm": 2750, "throttle": 40, "gear": 6, "engine_load_pct": 60, "brake": 0, "elev_m": 46 },
+          { "t": 360, "speed_kmh": 82,  "rpm": 2600, "throttle": 28, "gear": 6, "engine_load_pct": 50, "brake": 0, "elev_m": 41 },
+          { "t": 480, "speed_kmh": 0,   "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 15, "brake": 1, "elev_m": 15 }
+        ]
+      },
+      {
+        "tripId": "T-2008",
+        "start_time": "2025-09-12T14:02:40Z",
+        "end_time": "2025-09-12T14:38:55Z",
+        "odometer_start_km": 12222.8,
+        "odometer_end_km": 12248.1,
+        "distance_km": 25.3,
+        "fuel_liters": 1.90,
+        "idle_seconds": 480,
+        "avg_speed_kmh": 41,
+        "max_speed_kmh": 90,
+        "route_type": "Urban",
+        "weather": "Rain",
+        "ambient_temp_c": 11,
+        "ac_on_ratio": 0.10,
+        "payload_kg": 15,
+        "elevation_gain_m": 27,
+        "eco_mode_ratio": 0.38,
+        "tire_pressure_bar": { "front_left": 2.2, "front_right": 2.2, "rear_left": 2.1, "rear_right": 2.1 },
+        "events": { "overspeed": 3, "harsh_accel": 3, "harsh_brake": 4, "cornering": 2, "phone_use": 1 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 88 },
+        "fuel_calc": {
+          "actual_l_per_100km": 7.51,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.82,
+          "saved_fuel_liters_vs_baseline": -0.08,
+          "co2_kg": 4.39,
+          "saved_co2_kg_vs_baseline": -0.18
+        },
+        "geo": {
+          "start": { "lat": 51.6122, "lon": -0.0988, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.6026, "lon": -0.0822, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 17, "brake": 1, "elev_m": 12 },
+          { "t": 60,  "speed_kmh": 36, "rpm": 1800, "throttle": 24, "gear": 3, "engine_load_pct": 46, "brake": 0, "elev_m": 16 },
+          { "t": 180, "speed_kmh": 64, "rpm": 2250, "throttle": 32, "gear": 5, "engine_load_pct": 55, "brake": 0, "elev_m": 21 },
+          { "t": 300, "speed_kmh": 50, "rpm": 2100, "throttle": 18, "gear": 4, "engine_load_pct": 42, "brake": 0, "elev_m": 19 },
+          { "t": 420, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 13 }
+        ]
+      },
+      {
+        "tripId": "T-2009",
+        "start_time": "2025-09-15T12:05:31Z",
+        "end_time": "2025-09-15T12:45:30Z",
+        "odometer_start_km": 12248.1,
+        "odometer_end_km": 12279.3,
+        "distance_km": 31.2,
+        "fuel_liters": 1.92,
+        "idle_seconds": 210,
+        "avg_speed_kmh": 52,
+        "max_speed_kmh": 115,
+        "route_type": "Motorway",
+        "weather": "Clear",
+        "ambient_temp_c": 19,
+        "ac_on_ratio": 0.34,
+        "payload_kg": 0,
+        "elevation_gain_m": 29,
+        "eco_mode_ratio": 0.70,
+        "tire_pressure_bar": { "front_left": 2.4, "front_right": 2.4, "rear_left": 2.3, "rear_right": 2.3 },
+        "events": { "overspeed": 2, "harsh_accel": 1, "harsh_brake": 1, "cornering": 0, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 96 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.15,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 2.25,
+          "saved_fuel_liters_vs_baseline": 0.33,
+          "co2_kg": 4.43,
+          "saved_co2_kg_vs_baseline": 0.76
+        },
+        "geo": {
+          "start": { "lat": 51.6026, "lon": -0.0822, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.6319, "lon": -0.0725, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,   "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 15, "brake": 1, "elev_m": 15 },
+          { "t": 120, "speed_kmh": 82,  "rpm": 2600, "throttle": 30, "gear": 6, "engine_load_pct": 50, "brake": 0, "elev_m": 26 },
+          { "t": 240, "speed_kmh": 110, "rpm": 2900, "throttle": 38, "gear": 6, "engine_load_pct": 58, "brake": 0, "elev_m": 34 },
+          { "t": 360, "speed_kmh": 96,  "rpm": 2700, "throttle": 28, "gear": 6, "engine_load_pct": 48, "brake": 0, "elev_m": 31 },
+          { "t": 480, "speed_kmh": 0,   "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 16 }
+        ]
+      },
+      {
+        "tripId": "T-2010",
+        "start_time": "2025-09-18T08:31:10Z",
+        "end_time": "2025-09-18T09:06:05Z",
+        "odometer_start_km": 12279.3,
+        "odometer_end_km": 12301.0,
+        "distance_km": 21.7,
+        "fuel_liters": 1.52,
+        "idle_seconds": 380,
+        "avg_speed_kmh": 37,
+        "max_speed_kmh": 83,
+        "route_type": "Urban",
+        "weather": "Cloudy",
+        "ambient_temp_c": 13,
+        "ac_on_ratio": 0.25,
+        "payload_kg": 35,
+        "elevation_gain_m": 19,
+        "eco_mode_ratio": 0.44,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 2, "harsh_accel": 2, "harsh_brake": 3, "cornering": 1, "phone_use": 1 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 91 },
+        "fuel_calc": {
+          "actual_l_per_100km": 7.00,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.56,
+          "saved_fuel_liters_vs_baseline": 0.04,
+          "co2_kg": 3.51,
+          "saved_co2_kg_vs_baseline": 0.09
+        },
+        "geo": {
+          "start": { "lat": 51.6319, "lon": -0.0725, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.6182, "lon": -0.0520, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 18, "brake": 1, "elev_m": 12 },
+          { "t": 60,  "speed_kmh": 40, "rpm": 1850, "throttle": 22, "gear": 3, "engine_load_pct": 45, "brake": 0, "elev_m": 14 },
+          { "t": 150, "speed_kmh": 58, "rpm": 2200, "throttle": 28, "gear": 4, "engine_load_pct": 50, "brake": 0, "elev_m": 18 },
+          { "t": 240, "speed_kmh": 64, "rpm": 2350, "throttle": 30, "gear": 5, "engine_load_pct": 53, "brake": 0, "elev_m": 17 },
+          { "t": 330, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 13 }
+        ]
+      },
+      {
+        "tripId": "T-2011",
+        "start_time": "2025-09-22T11:24:40Z",
+        "end_time": "2025-09-22T12:02:52Z",
+        "odometer_start_km": 12301.0,
+        "odometer_end_km": 12329.7,
+        "distance_km": 28.7,
+        "fuel_liters": 1.72,
+        "idle_seconds": 260,
+        "avg_speed_kmh": 46,
+        "max_speed_kmh": 102,
+        "route_type": "Mixed",
+        "weather": "Clear",
+        "ambient_temp_c": 18,
+        "ac_on_ratio": 0.36,
+        "payload_kg": 0,
+        "elevation_gain_m": 40,
+        "eco_mode_ratio": 0.63,
+        "tire_pressure_bar": { "front_left": 2.4, "front_right": 2.4, "rear_left": 2.3, "rear_right": 2.3 },
+        "events": { "overspeed": 1, "harsh_accel": 1, "harsh_brake": 0, "cornering": 0, "phone_use": 0 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 97 },
+        "fuel_calc": {
+          "actual_l_per_100km": 5.99,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 2.06,
+          "saved_fuel_liters_vs_baseline": 0.34,
+          "co2_kg": 3.97,
+          "saved_co2_kg_vs_baseline": 0.79
+        },
+        "geo": {
+          "start": { "lat": 51.6182, "lon": -0.0520, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5899, "lon": -0.0352, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 15, "brake": 1, "elev_m": 11 },
+          { "t": 90,  "speed_kmh": 55, "rpm": 2100, "throttle": 22, "gear": 4, "engine_load_pct": 46, "brake": 0, "elev_m": 16 },
+          { "t": 210, "speed_kmh": 92, "rpm": 2700, "throttle": 34, "gear": 6, "engine_load_pct": 58, "brake": 0, "elev_m": 29 },
+          { "t": 330, "speed_kmh": 74, "rpm": 2450, "throttle": 24, "gear": 6, "engine_load_pct": 47, "brake": 0, "elev_m": 25 },
+          { "t": 420, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 14, "brake": 1, "elev_m": 12 }
+        ]
+      },
+      {
+        "tripId": "T-2012",
+        "start_time": "2025-09-27T17:40:05Z",
+        "end_time": "2025-09-27T18:25:20Z",
+        "odometer_start_km": 12329.7,
+        "odometer_end_km": 12355.0,
+        "distance_km": 25.3,
+        "fuel_liters": 1.73,
+        "idle_seconds": 320,
+        "avg_speed_kmh": 44,
+        "max_speed_kmh": 97,
+        "route_type": "Urban",
+        "weather": "Windy",
+        "ambient_temp_c": 15,
+        "ac_on_ratio": 0.30,
+        "payload_kg": 25,
+        "elevation_gain_m": 24,
+        "eco_mode_ratio": 0.49,
+        "tire_pressure_bar": { "front_left": 2.3, "front_right": 2.3, "rear_left": 2.2, "rear_right": 2.2 },
+        "events": { "overspeed": 1, "harsh_accel": 1, "harsh_brake": 2, "cornering": 1, "phone_use": 1 },
+        "compliance": { "seatbelt_pct": 100, "speed_limit_compliance_pct": 94 },
+        "fuel_calc": {
+          "actual_l_per_100km": 6.84,
+          "baseline_l_per_100km": 7.2,
+          "baseline_fuel_liters": 1.82,
+          "saved_fuel_liters_vs_baseline": 0.09,
+          "co2_kg": 3.99,
+          "saved_co2_kg_vs_baseline": 0.21
+        },
+        "geo": {
+          "start": { "lat": 51.5899, "lon": -0.0352, "city": "London", "country": "UK" },
+          "end":   { "lat": 51.5601, "lon": -0.0220, "city": "London", "country": "UK" }
+        },
+        "samples": [
+          { "t": 0,   "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 16, "brake": 1, "elev_m": 10 },
+          { "t": 60,  "speed_kmh": 42, "rpm": 1850, "throttle": 22, "gear": 3, "engine_load_pct": 43, "brake": 0, "elev_m": 13 },
+          { "t": 120, "speed_kmh": 66, "rpm": 2350, "throttle": 30, "gear": 5, "engine_load_pct": 52, "brake": 0, "elev_m": 19 },
+          { "t": 180, "speed_kmh": 79, "rpm": 2550, "throttle": 36, "gear": 5, "engine_load_pct": 58, "brake": 0, "elev_m": 22 },
+          { "t": 240, "speed_kmh": 0,  "rpm": 900,  "throttle": 0,  "gear": 1, "engine_load_pct": 15, "brake": 1, "elev_m": 11 }
+        ]
+      }
+    ]
+  }
+  

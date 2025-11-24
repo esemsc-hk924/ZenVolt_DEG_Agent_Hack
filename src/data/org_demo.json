@@ -1,0 +1,101 @@
+{
+    "org": {
+        "orgId": "BRUNEL-UK-001",
+        "name": "Brunel University London",
+        "sector": "Higher Education",
+        "employees": 820,
+        "country": "UK",
+        "currency": "GBP",
+        "reportingPeriod": "FY2025",
+        "targets": {
+            "netZeroYear": 2040,
+            "scopesCovered": ["Scope1", "Scope2", "Scope3 (partial)"],
+            "shortTerm": { "year": 2030, "reductionVs2020Pct": 42 }
+        }
+    },
+    "sites": [
+        { "siteId": "S1", "name": "Birmingham Plant", "country": "UK", "scope1_tCO2e": 4300, "scope2_tCO2e": 1650, "energy_kwh": 12800000, "renewables_pct": 22 },
+        { "siteId": "S2", "name": "Leeds DC", "country": "UK", "scope1_tCO2e": 1900, "scope2_tCO2e": 920, "energy_kwh": 5200000, "renewables_pct": 35 },
+        { "siteId": "S3", "name": "Cardiff Office", "country": "UK", "scope1_tCO2e": 80, "scope2_tCO2e": 145, "energy_kwh": 380000, "renewables_pct": 65 }
+    ],
+    "baselines": {
+        "year": 2020,
+        "scope1_tCO2e": 11800,
+        "scope2_location_tCO2e": 4400,
+        "scope3_cat4_upstream_tCO2e": 9600
+    },
+    "thisYear": {
+        "year": 2025,
+        "scope1_tCO2e": 10280,
+        "scope2_location_tCO2e": 3900,
+        "scope3_cat4_upstream_tCO2e": 9150
+    },
+    "costAssumptions": {
+        "elec_per_kwh_gbp": 0.25,
+        "carbon_internal_price_gbp_per_t": 60
+    },
+    "kpis": {
+        "mintedZVolt": 1000010,
+        "onChainAttestations": 32,
+        "onChainSavedKg": 24870,
+        "estCreditsTotal": 24,
+        "estCreditsVerified": 14,
+        "estCreditsUnverified": 10,
+        "avgSavedPerAttKg": 777,
+        "last7dSavedKg": 6790,
+        "last28dSavedKg": 28140,
+        "ytdSavedKg": 124600
+    },
+    "timeSeriesWeekly": [
+        { "week": "2025-W01", "savedKg": 820, "purchasedGoodsKg": 350, "transportationKg": 280, "wasteKg": 120, "businessTravelKg": 50, "employeeCommutingKg": 20 },
+        { "week": "2025-W02", "savedKg": 910, "purchasedGoodsKg": 390, "transportationKg": 310, "wasteKg": 140, "businessTravelKg": 50, "employeeCommutingKg": 20 },
+        { "week": "2025-W03", "savedKg": 760, "purchasedGoodsKg": 320, "transportationKg": 260, "wasteKg": 120, "businessTravelKg": 40, "employeeCommutingKg": 20 },
+        { "week": "2025-W04", "savedKg": 980, "purchasedGoodsKg": 420, "transportationKg": 340, "wasteKg": 150, "businessTravelKg": 50, "employeeCommutingKg": 20 },
+        { "week": "2025-W05", "savedKg": 1050, "purchasedGoodsKg": 450, "transportationKg": 360, "wasteKg": 160, "businessTravelKg": 50, "employeeCommutingKg": 30 },
+        { "week": "2025-W06", "savedKg": 870, "purchasedGoodsKg": 370, "transportationKg": 300, "wasteKg": 130, "businessTravelKg": 50, "employeeCommutingKg": 20 },
+        { "week": "2025-W07", "savedKg": 1120, "purchasedGoodsKg": 480, "transportationKg": 390, "wasteKg": 170, "businessTravelKg": 60, "employeeCommutingKg": 20 },
+        { "week": "2025-W08", "savedKg": 920, "purchasedGoodsKg": 390, "transportationKg": 320, "wasteKg": 140, "businessTravelKg": 40, "employeeCommutingKg": 30 },
+        { "week": "2025-W09", "savedKg": 1010, "purchasedGoodsKg": 430, "transportationKg": 350, "wasteKg": 150, "businessTravelKg": 50, "employeeCommutingKg": 30 },
+        { "week": "2025-W10", "savedKg": 980, "purchasedGoodsKg": 420, "transportationKg": 340, "wasteKg": 140, "businessTravelKg": 50, "employeeCommutingKg": 30 },
+        { "week": "2025-W11", "savedKg": 1150, "purchasedGoodsKg": 490, "transportationKg": 400, "wasteKg": 180, "businessTravelKg": 60, "employeeCommutingKg": 20 },
+        { "week": "2025-W12", "savedKg": 1080, "purchasedGoodsKg": 460, "transportationKg": 380, "wasteKg": 160, "businessTravelKg": 60, "employeeCommutingKg": 20 }
+    ],
+    "timeSeriesMonthly": [
+        { "month": "2025-01", "purchasedGoodsKg": 18200, "transportationKg": 14800, "wasteKg": 6400, "businessTravelKg": 2400, "employeeCommutingKg": 1200 },
+        { "month": "2025-02", "purchasedGoodsKg": 19200, "transportationKg": 15600, "wasteKg": 6800, "businessTravelKg": 2500, "employeeCommutingKg": 1300 },
+        { "month": "2025-03", "purchasedGoodsKg": 17800, "transportationKg": 14400, "wasteKg": 6200, "businessTravelKg": 2300, "employeeCommutingKg": 1200 },
+        { "month": "2025-04", "purchasedGoodsKg": 20600, "transportationKg": 16800, "wasteKg": 7200, "businessTravelKg": 2700, "employeeCommutingKg": 1400 }
+    ],
+    "initiatives": [
+        { "id": "I-001", "category": "Supply Chain", "name": "Supplier engagement program - renewable energy", "status": "Active", "capex_gbp": 15000, "opex_gbp": 8000, "est_saving_t": 280, "est_saving_gbp": 84000, "payback_months": 5, "start": "2025-01-10" },
+        { "id": "I-002", "category": "Procurement", "name": "Sustainable procurement policy implementation", "status": "Active", "capex_gbp": 25000, "opex_gbp": 12000, "est_saving_t": 320, "est_saving_gbp": 96000, "payback_months": 6, "start": "2025-02-01" },
+        { "id": "I-003", "category": "Transportation", "name": "Logistics optimization - route efficiency", "status": "Planned", "capex_gbp": 30000, "opex_gbp": 15000, "est_saving_t": 180, "est_saving_gbp": 54000, "payback_months": 8, "start": "2025-05-01" },
+        { "id": "I-004", "category": "Waste", "name": "Waste reduction and circular economy initiatives", "status": "Active", "capex_gbp": 18000, "opex_gbp": 6000, "est_saving_t": 140, "est_saving_gbp": 42000, "payback_months": 4, "start": "2025-03-15" }
+    ],
+    "attestations": [
+        { "dataHash": "0x01a1", "uri": "https://evidence.example/acme/att-0001.json?verified=1", "savedKg": 50, "orgId": "0xacme", "category": "supply_chain", "modelVersion": "v1.0.3-VERIFIED", "timestamp": 1736913600 },
+        { "dataHash": "0x01a2", "uri": "https://evidence.example/acme/att-0002.json", "savedKg": 14, "orgId": "0xacme", "category": "procurement", "modelVersion": "v1.0.3", "timestamp": 1737000000 },
+        { "dataHash": "0x01a3", "uri": "https://evidence.example/acme/att-0003.json?verified=1", "savedKg": 46, "orgId": "0xacme", "category": "transportation", "modelVersion": "v1.0.3-VERIFIED", "timestamp": 1737086400 },
+        { "dataHash": "0x01a4", "uri": "https://evidence.example/acme/att-0004.json", "savedKg": 34, "orgId": "0xacme", "category": "waste", "modelVersion": "v1.0.2", "timestamp": 1737172800 },
+        { "dataHash": "0x01a5", "uri": "https://evidence.example/acme/att-0005.json?verified=1", "savedKg": 18, "orgId": "0xacme", "category": "supply_chain", "modelVersion": "v1.0.3-VERIFIED", "timestamp": 1737259200 },
+        { "dataHash": "0x01a6", "uri": "https://evidence.example/acme/att-0006.json", "savedKg": 29, "orgId": "0xacme", "category": "procurement", "modelVersion": "v1.0.2", "timestamp": 1737345600 },
+        { "dataHash": "0x01a7", "uri": "https://evidence.example/acme/att-0007.json?verified=1", "savedKg": 25, "orgId": "0xacme", "category": "transportation", "modelVersion": "v1.0.3-VERIFIED", "timestamp": 1737432000 },
+        { "dataHash": "0x01a8", "uri": "https://evidence.example/acme/att-0008.json", "savedKg": 12, "orgId": "0xacme", "category": "waste", "modelVersion": "v1.0.2", "timestamp": 1737518400 },
+        { "dataHash": "0x01a9", "uri": "https://evidence.example/acme/att-0009.json", "savedKg": 6, "orgId": "0xacme", "category": "supply_chain", "modelVersion": "v1.0.2", "timestamp": 1737604800 },
+        { "dataHash": "0x01aa", "uri": "https://evidence.example/acme/att-0010.json", "savedKg": 45, "orgId": "0xacme", "category": "procurement", "modelVersion": "v1.0.2", "timestamp": 1737691200 },
+        { "dataHash": "0x01ab", "uri": "https://evidence.example/acme/att-0011.json?verified=1", "savedKg": 5, "orgId": "0xacme", "category": "transportation", "modelVersion": "v1.0.3-VERIFIED", "timestamp": 1737777600 },
+        { "dataHash": "0x01ac", "uri": "https://evidence.example/acme/att-0012.json?verified=1", "savedKg": 42, "orgId": "0xacme", "category": "waste", "modelVersion": "v1.0.3-VERIFIED", "timestamp": 1737864000 },
+        { "dataHash": "0x01ad", "uri": "https://evidence.example/acme/att-0013.json", "savedKg": 32, "orgId": "0xacme", "category": "supply_chain", "modelVersion": "v1.0.2", "timestamp": 1737950400 },
+        { "dataHash": "0x01ae", "uri": "https://evidence.example/acme/att-0014.json", "savedKg": 7, "orgId": "0xacme", "category": "procurement", "modelVersion": "v1.0.2", "timestamp": 1738036800 },
+        { "dataHash": "0x01af", "uri": "https://evidence.example/acme/att-0015.json", "savedKg": 10, "orgId": "0xacme", "category": "transportation", "modelVersion": "v1.0.2", "timestamp": 1738123200 },
+        { "dataHash": "0x01b0", "uri": "https://evidence.example/acme/att-0016.json", "savedKg": 35, "orgId": "0xacme", "category": "waste", "modelVersion": "v1.0.2", "timestamp": 1738209600 }
+    ],
+    "credits": {
+        "policy": "1 credit = 1,000 kg CO2e saved",
+        "ledger": [
+            { "date": "2025-07-01", "savedKg": 1050, "credits": 1, "verified": true, "evidenceUri": "https://evidence.example/acme/bundle-2025-07.json?verified=1" },
+            { "date": "2025-07-15", "savedKg": 920, "credits": 0, "verified": false, "evidenceUri": "https://evidence.example/acme/bundle-2025-07B.json" },
+            { "date": "2025-08-01", "savedKg": 2140, "credits": 2, "verified": true, "evidenceUri": "https://evidence.example/acme/bundle-2025-08.json?verified=1" }
+        ]
+    }
+}
